@@ -11,10 +11,10 @@ EXPOSE 8080
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["SimpleDotNetTestRepository/SimpleDotNetTestRepository.csproj", "SimpleDotNetTestRepository/"]
-RUN dotnet restore "./SimpleDotNetTestRepository/SimpleDotNetTestRepository.csproj"
+COPY ["src/SimpleDotNetTestRepository/SimpleDotNetTestRepository.csproj", "src/SimpleDotNetTestRepository/"]
+RUN dotnet restore "./src/SimpleDotNetTestRepository/SimpleDotNetTestRepository.csproj"
 COPY . .
-WORKDIR "/src/SimpleDotNetTestRepository"
+WORKDIR "/src/src/SimpleDotNetTestRepository"
 RUN dotnet build "./SimpleDotNetTestRepository.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # This stage is used to publish the service project to be copied to the final stage
