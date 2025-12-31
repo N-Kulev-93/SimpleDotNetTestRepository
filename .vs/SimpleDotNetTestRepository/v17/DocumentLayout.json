@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\9k5c43ty-304w5y4w50\\Desktop\\Repository\\SimpleDotNetTestRepository\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6CB5FCF2-342D-4CA5-ABF1-0CDB2A6A6FDE}|src\\SimpleDotNetTestRepository\\SimpleDotNetTestRepository.csproj|c:\\users\\9k5c43ty-304w5y4w50\\desktop\\repository\\simpledotnettestrepository\\src\\simpledotnettestrepository\\simpledotnettestrepository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6CB5FCF2-342D-4CA5-ABF1-0CDB2A6A6FDE}|src\\SimpleDotNetTestRepository\\SimpleDotNetTestRepository.csproj|solutionrelative:src\\simpledotnettestrepository\\simpledotnettestrepository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\9k5c43ty-304w5y4w50\\Desktop\\Repository\\SimpleDotNetTestRepository\\SimpleDotNetTestRepository\\Controllers\\TestController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SimpleDotNetTestRepository\\Controllers\\TestController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SimpleDotNetTestRepository",
+              "DocumentMoniker": "C:\\Users\\9k5c43ty-304w5y4w50\\Desktop\\Repository\\SimpleDotNetTestRepository\\src\\SimpleDotNetTestRepository\\SimpleDotNetTestRepository.csproj",
+              "RelativeDocumentMoniker": "src\\SimpleDotNetTestRepository\\SimpleDotNetTestRepository.csproj",
+              "ToolTip": "C:\\Users\\9k5c43ty-304w5y4w50\\Desktop\\Repository\\SimpleDotNetTestRepository\\src\\SimpleDotNetTestRepository\\SimpleDotNetTestRepository.csproj",
+              "RelativeToolTip": "src\\SimpleDotNetTestRepository\\SimpleDotNetTestRepository.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-31T13:18:39.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "TestController.cs",
               "DocumentMoniker": "C:\\Users\\9k5c43ty-304w5y4w50\\Desktop\\Repository\\SimpleDotNetTestRepository\\SimpleDotNetTestRepository\\Controllers\\TestController.cs",
               "RelativeDocumentMoniker": "SimpleDotNetTestRepository\\Controllers\\TestController.cs",
@@ -41,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SimpleDotNetTestRepository.csproj",
               "DocumentMoniker": "C:\\Users\\9k5c43ty-304w5y4w50\\Desktop\\Repository\\SimpleDotNetTestRepository\\SimpleDotNetTestRepository\\SimpleDotNetTestRepository.csproj",
               "RelativeDocumentMoniker": "SimpleDotNetTestRepository\\SimpleDotNetTestRepository.csproj",
@@ -52,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\9k5c43ty-304w5y4w50\\Desktop\\Repository\\SimpleDotNetTestRepository\\SimpleDotNetTestRepository\\Dockerfile",
               "RelativeDocumentMoniker": "SimpleDotNetTestRepository\\Dockerfile",
@@ -64,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\9k5c43ty-304w5y4w50\\Desktop\\Repository\\SimpleDotNetTestRepository\\SimpleDotNetTestRepository\\Program.cs",
               "RelativeDocumentMoniker": "SimpleDotNetTestRepository\\Program.cs",
