@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spa-template-deployment
+  labels:
+    app: spa-template
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: spa-template
+  template:
+    metadata:
+      labels:
+        app: spa-template
+    spec:
+      containers:
+      - name: spa-template
+        image: harbor.h3rk0.com/tests/simpleaspnetapp:v7
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: harbor-registry-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: spa-template
+spec:
+  type: NodePort
+  ports:
+  - name: http
+    nodePort: 30000
+    port: 8080
+  selector:
+    app: spa-template
