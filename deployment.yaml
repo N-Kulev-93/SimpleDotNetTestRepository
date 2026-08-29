@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: simple-aspnet-app
-        image: harbor.h3rk0.com/tests/simpleaspnetapp:v28
+        image: harbor.h3rk0.com/tests/simpleaspnetapp:v29
         ports:
         - containerPort: 8080
       imagePullSecrets:
