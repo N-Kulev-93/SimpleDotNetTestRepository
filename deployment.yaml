@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: spa-template-deployment
+  name: simple-aspnet-app-deployment
   labels:
-    app: spa-template
+    app: simple-aspnet-app
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: spa-template
+      app: simple-aspnet-app
   template:
     metadata:
       labels:
-        app: spa-template
+        app: simple-aspnet-app
     spec:
       containers:
-      - name: spa-template
-        image: harbor.h3rk0.com/tests/simpleaspnetapp:v7
+      - name: simple-aspnet-app
+        image: harbor.h3rk0.com/tests/simpleaspnetapp:v39
         ports:
         - containerPort: 8080
       imagePullSecrets:
@@ -25,7 +25,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: spa-template
+  name: simple-aspnet-app
 spec:
   type: NodePort
   ports:
@@ -33,4 +33,4 @@ spec:
     nodePort: 30000
     port: 8080
   selector:
-    app: spa-template
+    app: simple-aspnet-app
